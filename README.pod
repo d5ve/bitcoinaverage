@@ -2,6 +2,17 @@
 
 bitcoinaverage.pl - fetch bitcoin pricing info from api.bitcoinaverage.com
 
+=head1 SYNOPSIS
+
+    Fetch bitcoin pricing info from api.bitcoinaverage.com    
+    Prints current 24-hour average, previous 7 days average, 14th, 21st, and 28th previous day average. 
+
+    bitcoinaverage.pl [options]
+
+    Options:
+        --primary_currency=     Defaults to USD.
+        --local_currency=       Defaults to NZD.
+
 
 =cut
 
